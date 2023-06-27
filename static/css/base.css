@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background: url("/media/yoga.jpeg") no-repeat center center fixed;
+    background: url("/media/yoga2.jpg") no-repeat center center fixed;
     background-size: 100% 100%;
     height: calc(100vh - 164px);
-    color: #555;
+    color: plum;
     font-family: 'lato';
 }
 
@@ -21,20 +21,24 @@ body {
 
 .logo-font {
     text-transform: uppercase;
+    color: rgb(206, 43, 70);
 }
-
+h3 {
+    color: pink;
+    
+}
 .main-logo-link {
     width: fit-content;
 }
 
 .shop-now-button {
-    background: black;
+    background: palevioletred;
     color: white;
     min-width: 260px;
 }
 
 .btn-black {
-    background: black;
+    background: palevioletred;
     color: white;
 }
 
@@ -44,12 +48,12 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: pink;
     color: white;
 }
 
 .text-black {
-    color: #000 !important;
+    color: rgb(206, 43, 70) !important;
 }
 
 .border-black {
