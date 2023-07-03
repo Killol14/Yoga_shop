@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-1clovh9thhtj!lv)!40n64559w(56ylpcbl-n(j)utca+bd=@&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-gajwb4riper.ws-eu101.gitpod.io' 
+ALLOWED_HOSTS = [ '8000-killol14-yogashop-r9y8u3whqdk.ws-eu101.gitpod.io'
 ]
 
 
