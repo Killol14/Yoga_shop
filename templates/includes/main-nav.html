@@ -18,7 +18,7 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
                 <a href="" class="dropdown-item">ActiveProducts &amp; Essentials</a>
-                <a href="" class="dropdown-item">Yoga Blocks</a>
+                <a href="{% url 'products' %}?category=Yoga"class="dropdown-item">Yoga Blocks</a>
                 <a href="" class="dropdown-item">Yoga Bundles</a>
                 <a href="" class="dropdown-item">Yoga Mats</a>
                 <a href="" class="dropdown-item">Foam Roller</a>
@@ -32,10 +32,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Meditation
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item"> Candles &amp; Incense Sticks</a>
-                <a href="" class="dropdown-item"> Gym &amp; Meditation Room</a>
-                <a href="" class="dropdown-item">All Meditation Products</a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
             </div>
         </li>
 

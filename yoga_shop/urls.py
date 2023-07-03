@@ -23,4 +23,5 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('', include('home.urls')),
     path('products/', include('products.urls')),
+    path('add_to_bag/', views.add_to_bag, name='add_to_bag'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
