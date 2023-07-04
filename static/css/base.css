@@ -66,6 +66,10 @@ h3 {
 .dropdown-item {
     color: plum;
 }
+.text-muted {
+    color: #dc3545!important;
+    font-size: 1.2rem;
+}
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
