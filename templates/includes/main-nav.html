@@ -1,7 +1,7 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Shop All 
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
@@ -16,7 +16,7 @@
                Yoga
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=Foam Roller" class="dropdown-item">ActiveProducts &amp; Essentials</a>
+                <a href="{% url 'products' %}?category=Yoga Blocks, Yoga Bundle,Yoga Mats,Foam Roller,Yoga Assessories,Yoga and Pilates Wheel " class="dropdown-item">ActiveProducts &amp; Essentials</a>
                 <a href="{% url 'products' %}?category=Yoga Blocks"class="dropdown-item">Yoga Blocks</a>
                 <a href="{% url 'products' %}?category=Yoga Bundle" class="dropdown-item">Yoga Bundles</a>
                 <a href="{% url 'products' %}?category=Yoga Mats" class="dropdown-item">Yoga Mats</a>
@@ -32,7 +32,7 @@
                 Conditioning
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=Aerobic" class="dropdown-item"></a>
+                <a href="{% url 'products' %}?category=AB_Wheel,Skipping,Jump_Box,Aerobic" class="dropdown-item">Active Conditioning</a>
                 <a href="{% url 'products' %}?category=AB_Wheel" class="dropdown-item">AB Wheel</a>
                 <a href="{% url 'products' %}?category=Skipping" class="dropdown-item">Skipping Ropes</a>
                 <a href="{% url 'products' %}?category=Jump_Box" class="dropdown-item">Jump Boxes</a>
@@ -46,7 +46,7 @@
                 Compression
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=Arm" class="dropdown-item"></a>
+                <a href="{% url 'products' %}?category=Ankle,Arm,Back,calf,Elbow,Knee,Leg,Palm,Posture,Sholder,Socks" class="dropdown-item"> Active Compression</a>
                 <a href="{% url 'products' %}?category=Ankle" class="dropdown-item">Ankle</a>
                 <a href="{% url 'products' %}?category=Arm" class="dropdown-item">Arm</a>
                 <a href="{% url 'products' %}?category=Back" class="dropdown-item">Back</a>
@@ -67,7 +67,7 @@
                 Meditation
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=Arm" class="dropdown-item"></a>
+                <a href="{% url 'products' %}?category=Arm" class="dropdown-item">Active Meditation Products</a>
                 <a href="{% url 'products' %}?category=Meditation Benches" class="dropdown-item">Meditation Benches</a>
                 <a href="{% url 'products' %}?category=	Meditation Rugs" class="dropdown-item">Meditation Rug</a>
                 <a href="{% url 'products' %}?category=Meditation Cushions" class="dropdown-item">Meditation Cushions Or Zafas</a>

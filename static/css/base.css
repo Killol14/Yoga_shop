@@ -21,7 +21,12 @@ body {
 
 .logo-font {
     text-transform: uppercase;
-    color: rgb(206, 43, 70);
+    color: rgb(155, 50, 141);
+    margin-top: 50px;
+}
+h2.logo-font {
+    font-weight: 900;
+    margin-top: 50px;
 }
 h3 {
     color: pink;
@@ -69,6 +74,24 @@ h3 {
 .text-muted {
     color: #dc3545!important;
     font-size: 1.2rem;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
+a.category-badge > span.badge:hover {
+    background: pink;
+    color: purple;
+}
+#main-nav {
+    height: 0px;
 }
 /* -------------------------------- Media Queries */
 
