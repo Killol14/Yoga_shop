@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-1clovh9thhtj!lv)!40n64559w(56ylpcbl-n(j)utca+bd=@&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '8000-killol14-yogashop-cp5h54dsk59.ws-eu101.gitpod.io' ]
+ALLOWED_HOSTS = [ '8000-killol14-yogashop-0xb93l3bloh.ws-eu101.gitpod.io' ]
 
 
 # Application definition
@@ -88,10 +88,14 @@ AUTHENTICATION_BACKENDS = (
 
 SITE_ID = 1
 
-EMAIL_BACKEND = 'djanago.core.mail.backends.console.EmailBackend'
+SESSION_COOKIE_SECURE = True
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
+EMAIL_BACKEND = 'djanago.core.mail.backends.console.EmailBackend'
+ACCOUNT_ADAPTER = 'allauth.account.adapter.DefaultAccountAdapter'
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
