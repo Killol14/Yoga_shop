@@ -17,7 +17,10 @@ SECRET_KEY = 'django-insecure-1clovh9thhtj!lv)!40n64559w(56ylpcbl-n(j)utca+bd=@&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [  '8000-killol14-yogashop-s43zitgqmos.ws-eu101.gitpod.io' ]
+ALLOWED_HOSTS = [ '8000-killol14-yogashop-s43zitgqmos.ws-eu101.gitpod.io' ]
+
+CSRF_TRUSTED_ORIGINS = ['https://8000-killol14-yogashop-s43zitgqmos.ws-eu101.gitpod.io',]
+
 
 
 # Application definition
@@ -97,7 +100,7 @@ AUTHENTICATION_BACKENDS = (
 
 SITE_ID = 1
 
-EMAIL_BACKEND = 'djanago.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 ACCOUNT_ADAPTER = 'allauth.account.adapter.DefaultAccountAdapter'
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
