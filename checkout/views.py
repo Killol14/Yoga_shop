@@ -1,20 +1,19 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 
-form .forms import OrderForm
+from .forms import OrderForm
 
-# Create your views here.
 
-def checkut(request):
+def checkout(request):
     bag = request.session.get('bag', {})
     if not bag:
         messages.error(request, "There is nothing in your cart for Now!")
         return redirect(reverse('products'))
 
-    order_form = OrderForm()    
+    order_form = OrderForm()
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
     }
 
-    return render(redirect, template, context)
+    return render(request, template, context)
