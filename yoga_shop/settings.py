@@ -71,6 +71,10 @@ TEMPLATES = [
     },
 ]
 
+SESSION_COOKIE_SECURE = True
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+MESSAGE_STORAGE = 'django.contribe.message.storage.session.SessionStorage'
+
 AUTHENTICATION_BACKENDS = (
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
@@ -81,9 +85,6 @@ AUTHENTICATION_BACKENDS = (
 )
 
 SITE_ID = 1
-
-SESSION_COOKIE_SECURE = True
-SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
 EMAIL_BACKEND = 'djanago.core.mail.backends.console.EmailBackend'
 ACCOUNT_ADAPTER = 'allauth.account.adapter.DefaultAccountAdapter'
