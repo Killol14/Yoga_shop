@@ -48,7 +48,7 @@ h3 {
     border: 2px solid black;
 }
 .btn-outline-black {
-    background: purple;
+    background: rgb(146, 77, 146);
     color: plum;
     border: 2px solid black;
 }
@@ -108,12 +108,12 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
-span.text-uppercase {
-    color: palevioletred;
-}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
