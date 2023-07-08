@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-1clovh9thhtj!lv)!40n64559w(56ylpcbl-n(j)utca+bd=@&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '8000-killol14-yogashop-0xb93l3bloh.ws-eu101.gitpod.io' ]
+ALLOWED_HOSTS = [  '8000-killol14-yogashop-s43zitgqmos.ws-eu101.gitpod.io' ]
 
 
 # Application definition
@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'home',
     'products',
     'bag',
+    'profiles',
 ]
 
 MIDDLEWARE = [
