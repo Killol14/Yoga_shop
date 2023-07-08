@@ -114,7 +114,22 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
-/* -------------------------------- Media Queries */
+/*---Bootstarp Toast---*/
+
+.toast-capper {
+    height: 3px
+}
+.custom-toast {
+    overflow: visible;
+}
+.message-container {
+    position: fixed;
+    top: 70px;
+    right: 15px;
+    z-index: 9999999999;
+}
+
+/* ---Media Queries---*/
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
