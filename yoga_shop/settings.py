@@ -17,15 +17,17 @@ SECRET_KEY = 'django-insecure-1clovh9thhtj!lv)!40n64559w(56ylpcbl-n(j)utca+bd=@&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [  '8000-killol14-yogashop-tt4sxebqavw.ws-eu101.gitpod.io']
+ALLOWED_HOSTS = [ '8000-killol14-yogashop-pfiesg5w0ec.ws-eu101.gitpod.io']
 
-CSRF_TRUSTED_ORIGINS = [ 'https://8000-killol14-yogashop-tt4sxebqavw.ws-eu101.gitpod.io',]
+CSRF_TRUSTED_ORIGINS = ['https://8000-killol14-yogashop-pfiesg5w0ec.ws-eu101.gitpod.io']
+
 
 
 
 
 
 # Application definition
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
