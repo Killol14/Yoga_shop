@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = [ 'killol14-yoga-shop.herokuapp.com', 'localhost',]
+ALLOWED_HOSTS = [ 'yoga-shop.herokuapp.com', 'localhost',]
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-killol14-yogashop-pfiesg5w0ec.ws-eu101.gitpod.io']
 
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
 
     #Other App
      'crispy_forms',
+     'storages'
 ]
 
 MIDDLEWARE = [
@@ -181,6 +182,21 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+if 'USE_AWS' in os.environ:
+    AWS_STORAGE_BUCKET_NAME = 'killol14-yoga-shop'
+    AWS_S3-REGION_NAME = 'EU (London) eu-west-2'
+    AWS_ACCESS_KEY-ID = os.environ.get('AWS_ACCESS_KEY_ID')
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+
+ # Static and Media files 
+    STATICFILES_STORAGE = 'custom_storages.StaticStorage'
+    STATICFILES_LOCATION = 'static'  
+    DEFAULT_FILE_STORAGE = 'custom_storage.MediaStorage'
+    MEDIAFILES_LOCATION = 'media'
+
+    STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
+    MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
