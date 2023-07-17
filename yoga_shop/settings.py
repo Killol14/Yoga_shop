@@ -4,6 +4,7 @@ Django settings for yoga_shop project.
 """
 import os
 import dj_database_url
+import env
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -13,15 +14,19 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', '@cl27)psy_9w&yn9zl(#w7og7ylry7(n3+eo-*3#)&k7cz(4g9')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-killol14-yogashop-uph433j3aym.ws-eu101.gitpod.io',
-   
 ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-killol14-yogashop-uph433j3aym.ws-eu101.gitpod.io',
+  
+]
+
 
 
 # Application definition
@@ -57,7 +62,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware'
+    'django.middleware.csrf.CsrfViewMiddleware',
+    
 ]
 
 ROOT_URLCONF = 'yoga_shop.urls'
