@@ -70,12 +70,6 @@ def product_detail(request, product_id):
 
     return render(request, 'products/product_detail.html', context)
 
-def product_detail(request, product_id):
-    product = Product.objects.get(id=product_id)
-    selected_color = "BLACK"  # Replace "BLACK" with the actual selected color (e.g., product.colors.split(',')[0])
-    return render(request, 'product_detail.html', {'product': product, 'selected_color': selected_color})
-
-
 @login_required
 def add_product(request):
     """ Add a product to the store """

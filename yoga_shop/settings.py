@@ -24,7 +24,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['8000-killol14-yogashop-d67tnmnsxku.ws-eu101.gitpod.io']    
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-killol14-yogashop-85z9ytjcoid.ws-eu101.gitpod.io',
+    'https://8000-killol14-yogashop-d67tnmnsxku.ws-eu101.gitpod.io',
   
 ]
 
