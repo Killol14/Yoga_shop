@@ -1,0 +1,44 @@
+<form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+    {% csrf_token %}
+</form>
+
+<a class="update-link text-info"><small>Update</small></a>
+<a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+
+
+<form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
+    {% csrf_token %}  
+</form>
+
+<a class="update-link text-info"><small>Update</small></a>
+<a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+
+
+
+    // JavaScript code to handle quantity buttons and disabling
+<script>
+
+    document.querySelectorAll('.update-form').forEach(form => {
+        const itemId = form.getAttribute('data-item_id');
+        const qtyInput = document.getElementById(`id_qty_${itemId}`);
+        const decrementBtn = document.getElementById(`decrement-qty_${itemId}`);
+
+    decrementBtn.addEventListener('click', () => {
+        qtyInput.value = Math.max(1, parseInt(qtyInput.value, 10) - 1);
+        decrementBtn.disabled = qtyInput.value == 1;
+    });
+
+    
+    document.getElementById(`increment-qty_${itemId}`).addEventListener('click', () => {
+        qtyInput.value = Math.min(99, parseInt(qtyInput.value, 10) + 1);
+        decrementBtn.disabled = false;
+    });
+
+ 
+    qtyInput.addEventListener('change', () => {
+        qtyInput.value = Math.min(99, Math.max(1, parseInt(qtyInput.value, 10)));
+        decrementBtn.disabled = qtyInput.value == 1;
+    });
+});
+
+</script>
