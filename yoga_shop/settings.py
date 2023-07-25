@@ -21,11 +21,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-d67tnmnsxku.ws-eu101.gitpod.io']    
+ALLOWED_HOSTS = ['8000-killol14-yogashop-6dka3dzaxu8.ws-eu102.gitpod.io']    
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-killol14-yogashop-d67tnmnsxku.ws-eu101.gitpod.io',
-  
+    'https://8000-killol14-yogashop-6dka3dzaxu8.ws-eu102.gitpod.io',
 ]
 
 
