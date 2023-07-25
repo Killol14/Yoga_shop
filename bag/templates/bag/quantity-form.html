@@ -5,17 +5,6 @@
 <a class="update-link text-info"><small>Update</small></a>
 <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
 
-
-<form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
-    {% csrf_token %}  
-</form>
-
-<a class="update-link text-info"><small>Update</small></a>
-<a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
-
-
-
-    // JavaScript code to handle quantity buttons and disabling
 <script>
 
     document.querySelectorAll('.update-form').forEach(form => {
