@@ -7,8 +7,7 @@ from .contexts import bag_contents
 
 def view_bag(request):
     context = bag_contents(request) 
-
-    return render(request, 'bag/bag.html')
+    return render(request, 'bag/bag.html', context)
 
 
 def add_to_bag(request, item_id):
@@ -16,13 +15,8 @@ def add_to_bag(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
-    size = None
-    if 'product_size' in request.POST:
-        size = request.POST['product_size']
-
-    color = None
-    if 'product_color' in request.POST:
-        color = request.POST['product_color']
+    size = request.POST.get('product_size')
+    color = request.POST.get('product_color')
 
     bag = request.session.get('bag', {})
 
@@ -34,7 +28,7 @@ def add_to_bag(request, item_id):
             else:
                 bag[item_id]['items_by_size'][size] = {
                     'quantity': quantity,
-                    'color': color  # Add the selected color to the bag
+                    'color': color 
                 }
                 messages.success(request, f'You have added a new size {size.upper()} {product.name} to your shopping cart.')
         else:
@@ -42,7 +36,7 @@ def add_to_bag(request, item_id):
                 'items_by_size': {
                     size: {
                         'quantity': quantity,
-                        'color': color  # Add the selected color to the bag
+                        'color': color  
                     }
                 }
             }
@@ -60,6 +54,7 @@ def add_to_bag(request, item_id):
 
     request.session['bag'] = bag
     return redirect(redirect_url)
+
 
 def adjust_bag(request, item_id):
     """Adjust Item"""
@@ -119,7 +114,7 @@ def adjust_bag(request, item_id):
         
 
     request.session['bag'] = bag
-    return redirect('view_bag')
+    return redirect(reverse('view_bag'))
 
 def remove_from_bag(request, item_id):
     """Remove the"""

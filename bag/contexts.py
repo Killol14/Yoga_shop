@@ -4,6 +4,7 @@ from django.shortcuts import get_object_or_404
 from products.models import Product
 
 
+from decimal import Decimal
 
 def bag_contents(request):
     bag_items = []
@@ -23,43 +24,51 @@ def bag_contents(request):
             })
         else:
             product = get_object_or_404(Product, pk=item_id)
-
-            if 'items_by_size' in item_data:  
-                for size, colors_data in item_data['items_by_size'].items():
-                    for color, quantity_str in colors_data.items():
-                        try:
-                            quantity = int(quantity_str)
-                        except ValueError:
+            if 'items_by_size' in item_data:
+                for size, quantity in item_data['items_by_size'].items():
+                    if isinstance(quantity, (int, float)):
                         
-                            continue
-                        total += quantity * product.price
+                        total += Decimal(quantity) * product.price
                         product_count += quantity
                         bag_items.append({
                             'item_id': item_id,
                             'quantity': quantity,
                             'product': product,
-                            'size': size,
-                            'color': color,
                         })
-        if total < settings.FREE_DELIVERY_THRESHOLD:
-            delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
-            free_delivery_delta = settings.FREE_DELIVERY_THRESHOLD - total
-        else:
-             delivery = 0
-             free_delivery_delta = 0
-                
-        grand_total = delivery + total
-                
-        context = {
-             'bag_items': bag_items,
-             'total': total,
-             'product_count': product_count,
-             'delivery': delivery,
-             'free_delivery_delta': free_delivery_delta,
-             'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
-             'grand_total': grand_total,
-                }
+            else:
+                quantity = item_data.get('quantity', 1)
+                color = item_data.get('color', None)
+                if isinstance(quantity, (int, float)):
+                    # Convert quantity to Decimal before multiplication
+                    total += Decimal(quantity) * product.price
+                    product_count += quantity
+                    bag_items.append({
+                        'item_id': item_id,
+                        'quantity': quantity,
+                        'product': product,
+                        'color': color,
+                    })
+
+    if total < settings.FREE_DELIVERY_THRESHOLD:
+        delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
+        free_delivery_delta = settings.FREE_DELIVERY_THRESHOLD - total
+    else:
+        delivery = 0
+        free_delivery_delta = 0
+
+    grand_total = delivery + total
+
+    context = {
+        'bag_items': bag_items,
+        'total': total,
+        'product_count': product_count,
+        'delivery': delivery,
+        'free_delivery_delta': free_delivery_delta,
+        'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
+        'grand_total': grand_total,
+    }
 
     return context
+
 
 
