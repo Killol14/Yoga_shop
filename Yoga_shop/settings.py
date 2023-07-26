@@ -69,7 +69,7 @@ MIDDLEWARE = [
     
 ]
 
-ROOT_URLCONF = 'yoga_shop.urls'
+ROOT_URLCONF = 'Yoga_shop.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -124,7 +124,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'yoga_shop.wsgi.application'
+WSGI_APPLICATION = 'Yoga_shop.wsgi.application'
 
 
 # Database
