@@ -23,7 +23,8 @@ DEBUG = True
 
 
 # current host 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-hiehzr6nrg6.ws-eu102.gitpod.io', ' https://yoga-shop-8f3af1e13c14.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['8000-killol14-yogashop-1u90xpqmltt.ws-eu102.gitpod.io', 'https://yoga-shop-8f3af1e13c14.herokuapp.com/', 'localhost']
+
   
 
 CSRF_TRUSTED_ORIGINS = [

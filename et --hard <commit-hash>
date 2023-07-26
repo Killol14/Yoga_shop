@@ -1,0 +1,713 @@
+[33mcommit 6dc1ae847f950842e2a7a3169b9e1445b5064070[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 19:33:37 2023 +0000
+
+    modify requirements.txt
+
+[33mcommit b0d8cb3204550e9a5820e9a8336ed08500c9f3a9[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 17:47:10 2023 +0000
+
+    amended manage.py
+
+[33mcommit 8b2aeef28fc2d8e7a125f987e8635c66e65fdd28[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 17:34:26 2023 +0000
+
+    trying to have a look bug
+
+[33mcommit 38ea398c4f824f9459b82dce59cb3ea3c87640c8[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 14:37:55 2023 +0000
+
+    this will commit settings.py allowed hosts
+
+[33mcommit 875c10f4c278c86be389eb17925d2af485e6b5a4[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 14:04:28 2023 +0000
+
+    Add Gunicorn to requirements.txt
+
+[33mcommit 3a3826f624d1aa151b6d327a78b4b8df30d98379[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 13:50:26 2023 +0000
+
+    amended requirments.txt file
+
+[33mcommit da701871b075069e2f2ad4faf34e9331aade7c74[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 13:02:24 2023 +0000
+
+    trying to fix bug
+
+[33mcommit 2161fa042c1e96e5615f9def6aedd98f6c1ac846[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 12:59:37 2023 +0000
+
+    python default
+
+[33mcommit b4c98e3a3e955834b566f88f845758dc15d1ba9f[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 12:56:30 2023 +0000
+
+    python package upadated
+
+[33mcommit 85022e97626c0d5750866d2515ef4c50695788ef[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 12:23:08 2023 +0000
+
+    trying to change python-dateuil for heroku
+
+[33mcommit 168f118654094f274e8ae600f00640218e02ac0f[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 12:03:53 2023 +0000
+
+    renamed
+
+[33mcommit 367984a55a4d33d583a0e9dcd7c274bf9677f866[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 11:42:50 2023 +0000
+
+    trying to update on heroku
+
+[33mcommit 12fb67d52bbeb4bb70cbe5718a9629cb0f20aec5[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 11:39:46 2023 +0000
+
+    Update python-dateutil version constraint
+
+[33mcommit 97fe465cd5d4d3c480ca5dd31e080e14040ad7bc[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 11:35:22 2023 +0000
+
+    Update python-dateutil version constraint
+
+[33mcommit 931a467696c9cd65f659a2ac1feec6d38c97df7a[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 11:29:49 2023 +0000
+
+    Fix python-dateutil version constraint
+
+[33mcommit f3541b2650a41ed90351d66eec54a7a027dc4679[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 11:26:34 2023 +0000
+
+    Amended Procfile
+
+[33mcommit 1c97dabb36887c0b4dc54bc9dda84720abb0232a[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 10:54:08 2023 +0000
+
+    amended .gitignore file
+
+[33mcommit f8be4368321d5f2543e9b53719567691461fefc7[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 26 09:56:52 2023 +0000
+
+    this will commit added host
+
+[33mcommit b5293634e69f1e3181f89ad6bc8818b474475273[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 25 14:59:40 2023 +0000
+
+    it will commit context.py for color and size issue fixed
+
+[33mcommit 8ccd78d3ac7bc2db545f756799fccf2b453818e2[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 25 11:54:32 2023 +0000
+
+    commiting for bug fix for update items
+
+[33mcommit faaba96d20b915c1a41213497312eb4a06ccfa27[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 25 10:33:20 2023 +0000
+
+    this will commit quantity-form.html
+
+[33mcommit 996ea9673984aa8e00d47612a669443c5cbf561f[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 25 10:31:08 2023 +0000
+
+    amended code in contexts.py bag
+
+[33mcommit fe63c8d99a31f7fb04edc6e0c52494ad5baf02ac[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 20 12:38:11 2023 +0000
+
+     amended contexts.py in bag
+
+[33mcommit a9539be50a1592568af72ad33122916a7dfb106b[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 20 11:31:01 2023 +0000
+
+    amended color choice in bag.html
+
+[33mcommit 30ded364378fc8b8130a5ca384d3334377d86a22[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 20 10:57:46 2023 +0000
+
+    this will commit added html in bag
+
+[33mcommit 955a2168ceba650a4338f1b0b51323d07091eac1[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 20 10:29:52 2023 +0000
+
+    amended base.css and mobile nav
+
+[33mcommit 7acfd4eb4148e399c8595093277f7ba90e570042[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 20 09:28:30 2023 +0000
+
+    adding real emails sending
+
+[33mcommit 548b1ff7e1926fdc274432c295db139ab20ffd39[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 19 12:58:55 2023 +0000
+
+    this will commit added products
+
+[33mcommit 02dcc43d28dd44f3fd388a4c294f4ff82dbeadc8[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 19 12:14:04 2023 +0000
+
+    this will commit color selection in place
+
+[33mcommit e63bb6fa99139e208e96dd29a1f39b8163f47b38[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 17 14:48:18 2023 +0000
+
+    commiting for modifying stripe pyment system by falowing walkingthrough project
+
+[33mcommit 21d025176dd56b3aa6c62cfc90e54930744b081d[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 17 12:05:55 2023 +0000
+
+    made some changes in custom input file
+
+[33mcommit 40338fb9b43ea6e7cccdd5cf0dd54fc89e48f29f[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 17 10:51:20 2023 +0000
+
+    this will commit confirmation text
+
+[33mcommit 70ff2afcac4a8a1ffb78b95217647486fcda745e[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 17 10:37:49 2023 +0000
+
+    confirmation email.txt setup
+
+[33mcommit 94cf469fca29a48950d5f4fa73c07c93b6f9cd25[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 17 10:24:42 2023 +0000
+
+    added checkout page and stripe elements
+
+[33mcommit 7102710271f0008e8c4a50b8469917ec0335fc18[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 14:45:44 2023 +0000
+
+    added stripe keys
+
+[33mcommit 22f36673f6e01474cc86972d5bea8509ddf82f6e[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 13:51:48 2023 +0000
+
+    this will commit added custom widgets.py
+
+[33mcommit 95e908820cc420ef45d1b35fd9e65a1327e6678d[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 13:19:05 2023 +0000
+
+    this will commit securing superuser
+
+[33mcommit cea30f94259f99dbd6483715c2a401d0e7e26530[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 13:01:45 2023 +0000
+
+    commiting for delete request
+
+[33mcommit dea3addf803c7ec81668af7aa928a2fea2cdad73[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 12:54:28 2023 +0000
+
+    this commit will add edit form in place
+
+[33mcommit 1c6b578f65611abe95b40da1db9d2f5234cfaef2[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 12:47:24 2023 +0000
+
+    this will commit add product form inplace
+
+[33mcommit ddef66b74aaa9bee18486a6ae95020ebd33ede52[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 12:29:49 2023 +0000
+
+    this will commit add product page
+
+[33mcommit 800bd280dfb73e92b15853618fd81ae6e8c8d35f[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 12:24:15 2023 +0000
+
+    this will commit added forms in product page
+
+[33mcommit 0bd56dccde39841495f4257bd5e1ac7e5bc2b390[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 15 11:53:07 2023 +0000
+
+    adding host name
+
+[33mcommit e47fde3e909b23bbd5dc4d5bbac88e11c7386ff0[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 13 19:31:06 2023 +0000
+
+    trying to deploy
+
+[33mcommit e92c53bfece6ba336196acc990c5fe9a1ff704c6[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 13 13:18:16 2023 +0000
+
+    cache control added
+
+[33mcommit 9aa047b627bf4df3ce03035eaaea2338bf736cfa[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 13 13:08:09 2023 +0000
+
+    looking for bug
+
+[33mcommit db750c87dae14e55cef241224a23be950d0cbe9c[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 13 13:01:26 2023 +0000
+
+    custom storage.py added
+
+[33mcommit 86ee5d7350748dd6ceeec4d38d94b5cfde310437[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 13 12:58:31 2023 +0000
+
+    commiting for database in setting.py
+
+[33mcommit c112d138eda304a96b0fb9b077255d66b616691d[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 13 12:54:58 2023 +0000
+
+    this will commit spelling currection
+
+[33mcommit aecebf02e8950a1415ce3bbe369098e590f9203e[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 13 12:43:17 2023 +0000
+
+    getting ready for deploy the web
+
+[33mcommit c1746ea3a96ccf0e8ffcc7ef68b1a10b7e5bda0e[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 13 10:43:10 2023 +0000
+
+    added secretkey and deleted some images
+
+[33mcommit f11a34f64899fc98c776cbc9837bc0c67425351d[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 12 16:46:01 2023 +0000
+
+    this will commit for finding profile bug
+
+[33mcommit 610e0dddec86c236ea8244e4040496aef9189b86[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 11 14:25:49 2023 +0000
+
+    trying to clear product database bug
+
+[33mcommit 83b98a4d145e523994281292eb9265d7e6ff8550[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 10 14:42:18 2023 +0000
+
+    this will commit order form
+
+[33mcommit 2b0d2db510802b1ff5da0623ca7550a744ff648f[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 10 14:32:40 2023 +0000
+
+    added checlout success.html and updated checkout form
+
+[33mcommit 47b0e5f081861000616d655556fb5f4db7b59da3[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 10 13:43:11 2023 +0000
+
+    few changes on css and js for profile form colour
+
+[33mcommit aca98a45afd94a1552b1e0f1135e08f8588eabce[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 10 13:31:02 2023 +0000
+
+    this will commit css and js in profile file
+
+[33mcommit 7a34c0fcb27685ca2a702c27332c77aa034fb0be[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 10 12:44:24 2023 +0000
+
+    commiting for profile form
+
+[33mcommit e28c9f9a0ee0724e2d34e6bb14dbd9a621b43aad[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 10 12:03:11 2023 +0000
+
+    this will commit added from.py in profule
+
+[33mcommit 5859c9a5b77db3bd3802b7553c26b3ebe0c8f804[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 10 11:35:45 2023 +0000
+
+    commiting for sorting out bug for profile
+
+[33mcommit 0779a4417c4fb92403f18f0e9ee2024b126cacc1[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 22:36:21 2023 +0000
+
+    this will commit login page and register form set up
+
+[33mcommit fb43e7bc0acce68282562ce741456b041cb4d18b[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 21:19:53 2023 +0000
+
+    this will commit all allauth templates custmised
+
+[33mcommit 9b07d7b56143e46f2ad34b540000dc65cde20978[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 21:04:06 2023 +0000
+
+    this will commit added profile.html and css
+
+[33mcommit f56f9c9cb77986bbd40024441612bd200bbe13d3[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 20:50:37 2023 +0000
+
+    added models.py file in profile.html
+
+[33mcommit 835af57312bcc966eb63aab361fa2b17269ee7d1[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 20:17:37 2023 +0000
+
+    this will commit checkout page with js file and card pyment
+
+[33mcommit 7d3016ed758eef0d9256e816a8726459a9544de0[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 19:36:34 2023 +0000
+
+    amended checkout and delivery page
+
+[33mcommit 43a762935511ed9713d9740934bb3f1b4052daeb[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 19:19:28 2023 +0000
+
+    updated allauth
+
+[33mcommit ff5e45db70b265b7f6bef5f896691201d3228b58[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 18:39:24 2023 +0000
+
+    this will commit checkout form
+
+[33mcommit c80b9993f344b7f7188b857f0de96eb449e1a44a[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 18:01:32 2023 +0000
+
+     added cheackout form and urls
+
+[33mcommit 03649b484cd7da5b6e33ae05f63ae948bf42c71d[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 17:29:15 2023 +0000
+
+    this will add forms.py and django signal.py
+
+[33mcommit f3c279c053e945b72248b5b14fee8163aa603e30[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 17:06:36 2023 +0000
+
+    commiting for checkout templates with added code in models.py
+
+[33mcommit 30b7885d5156cd5b01d3ad8a0401421e2f4ea7bd[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 16:50:37 2023 +0000
+
+    this will commit success.html updated
+
+[33mcommit 45ae9de298c8e8b4f9c2903f6fdb2e1d04cd6585[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 16:32:54 2023 +0000
+
+    it will commit messages for adding, removing product and any error
+
+[33mcommit 3368c6f219b41419060718f60acadc3b57c86a28[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 16:13:55 2023 +0000
+
+    this commit is for message for addid products to the cart
+
+[33mcommit 49bf2005ab7cb55ff73ca1f3298ac6e725199d6a[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 15:49:07 2023 +0000
+
+    this will commit toast templates with success, Warning, error, and info message
+
+[33mcommit 09451665970fc60eb2e2724b9c95f92a075baaef[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 15:23:31 2023 +0000
+
+    this will commit bag_tools.py for update price by changing quantity
+
+[33mcommit 3288a4aa34f5a84089e633da7f73891f13958093[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 14:56:11 2023 +0000
+
+    added remove functionality and also templatetags folder
+
+[33mcommit 36a013658c28f45575ca2db08b19f8b2b26931c0[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 14:14:41 2023 +0000
+
+    this will commit remove and update buttons inplace also script and css
+
+[33mcommit 93598d022ce482350c3cb3c50aceb55ffc970bbc[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 13:48:08 2023 +0000
+
+    commiting for product_size update
+
+[33mcommit 86c96a029f3781a2356406c847f77505bfa78f13[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 13:36:10 2023 +0000
+
+    commiting for size function
+
+[33mcommit a5d3d400cd454d89a132b2b709d05475a7c3b626[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 12:47:43 2023 +0000
+
+    this will commit amended bag.html
+
+[33mcommit cdd360a7c5e08aab56599004684a6e4c08b0d34b[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 12:39:52 2023 +0000
+
+    this will commit bagitem quantity fuction in Place
+
+[33mcommit b33000b7d33f8624a26b48ff32073d3d5433693e[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 12:12:03 2023 +0000
+
+    this will commit quantity button in place
+
+[33mcommit 93ae1f21013317b726ef7c8af6c33064a2de9613[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Sat Jul 8 11:56:34 2023 +0000
+
+    this will commit create superuser and profileapp
+
+[33mcommit 1e02e4072eadf6fb6d243ab49e052c60db4acefe[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Fri Jul 7 15:39:23 2023 +0000
+
+    this will commit new product trying out for bug fixing
+
+[33mcommit ac473f4617d06fbb7da99137b591e4724d219561[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Fri Jul 7 15:24:25 2023 +0000
+
+    adding product
+
+[33mcommit 332fab799263559ca42a23e0174c062d6ac55469[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 6 13:29:23 2023 +0000
+
+    this will commit env.py
+
+[33mcommit dd968fb12ca14acf15ad1df13e73a60c7e4d7307[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Thu Jul 6 13:21:32 2023 +0000
+
+    set for env.py
+
+[33mcommit 7616f40979f2f266e631857b53a77b57b8604ea0[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 5 10:55:09 2023 +0000
+
+    bug for terminal fixed
+
+[33mcommit bf2c64a66f86e1812639cdaa64b31325720b3a92[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 5 10:44:02 2023 +0000
+
+    this will commit add to bag form
+
+[33mcommit 8b3b1e5e0fdeca8d7ededf4969675926e04485d5[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 5 10:02:28 2023 +0000
+
+    this will commit bag.html and urls for bag function
+
+[33mcommit 6c83dbb956e2fcf136ee08d9c42ad3539c1fe57b[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jul 5 09:33:25 2023 +0000
+
+    added javascrtipt for namesort and back to top button
+
+[33mcommit 35312a2d1ded06d7a529bedbbfaeb97eb4ea2d1e[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 4 14:57:34 2023 +0000
+
+    this will commit sort items function in place
+
+[33mcommit 0eb35a0c5ba17972b219fc54c5d5f96fcb373e24[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 4 14:47:34 2023 +0000
+
+    this will commit amended product.html page
+
+[33mcommit 7f353bf5a7f2567fd6c61b120e65be6e606a460a[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 4 13:21:18 2023 +0000
+
+    this will comit sortlist and category function
+
+[33mcommit 935eaa12b3f14b9d966bb647eafaa1dc290cc353[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 4 12:55:39 2023 +0000
+
+    this will commit category serch list for items
+
+[33mcommit b332a9a6f3974e49a864d929e3d82ffa911a3c23[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 4 12:15:20 2023 +0000
+
+    added products
+
+[33mcommit 0745c93ea8974fe4951d7fe0665259ed9e369dbe[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jul 4 11:29:26 2023 +0000
+
+    this will commit added products
+
+[33mcommit 8a25951b293d700cef28b294cdd0ae128ad284df[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 3 14:14:32 2023 +0000
+
+    this will commit search products
+
+[33mcommit 1b132d2127b60e452434670763a57f56a952c6b0[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 3 13:34:47 2023 +0000
+
+    adding products
+
+[33mcommit 9433874f42cee9f14157f492e67b63ba8643a532[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 3 12:14:53 2023 +0000
+
+    this will commit changes in product.html
+
+[33mcommit e6345bcfa4ab73ce9e82148320e23941becf929b[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 3 12:10:07 2023 +0000
+
+    this will commit product page setup
+
+[33mcommit ccef7bb1410cf38ba7b213c066b863695194ee83[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Mon Jul 3 10:49:36 2023 +0000
+
+    trying to upload an images
+
+[33mcommit d5fa477cedcb205f49eea848e5dc87c85a679940[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jun 28 15:11:00 2023 +0000
+
+    this will commit products.html
+
+[33mcommit d452ac42d0f4d879934aa3a13c21aad5063d95be[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jun 28 12:18:45 2023 +0000
+
+    commit for product page error
+
+[33mcommit f148f8b3d54fd3fea55ee271fc49babf8e35b64c[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jun 28 12:12:59 2023 +0000
+
+    this will commit product page setup
+
+[33mcommit 0b745e057244e764afbd4fbfb5abf86924721bd4[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Wed Jun 28 11:02:21 2023 +0000
+
+    setup for models.py
+
+[33mcommit 1c97f4a7f09f28a972760564532804055ae080e2[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 14:25:11 2023 +0000
+
+    this will commit product page
+
+[33mcommit 9367d460092686e91a75c29ebe54d55a6c3d527f[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 14:20:46 2023 +0000
+
+    added includes templates
+
+[33mcommit 92e477443cc9c69f88bb299fe11e7f6d5b87300f[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 13:28:27 2023 +0000
+
+    background image changed with some css
+
+[33mcommit 62a6b5e8f8e4fc2210e718bfbfc9c37c46cebb06[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 12:33:19 2023 +0000
+
+    home page set up with css
+
+[33mcommit 29dd7df42b51f91ca143242890a15ad36ce801ea[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 11:56:29 2023 +0000
+
+    added homepage
+
+[33mcommit fcbb81c534c4e11ee179c9163c9869e5c1c87f7e[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 11:48:44 2023 +0000
+
+    added home page index
+
+[33mcommit 6d543c0727a9601b40c9d908cd73ee07f18ac5ec[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 11:31:05 2023 +0000
+
+    added index.html and home app with templates
+
+[33mcommit 5fd9f0bbfed48e3bf2932a5a128b923046a05a67[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 11:03:23 2023 +0000
+
+    first base.html setup from bootstrap
+
+[33mcommit c2dca99bdcd66ea47e2756097cfed2acb2b897e5[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 10:44:41 2023 +0000
+
+    setup lopgin page and allauth
+
+[33mcommit 1c2380b69cd319380673a175bd192b26f2098273[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 10:16:50 2023 +0000
+
+    installed allauth
+
+[33mcommit aa52f59d95f375150325ecff1ca63cab597b30c5[m
+Author: Killol14 <kgselectrical.plumbing@gmail.com>
+Date:   Tue Jun 27 10:08:31 2023 +0000
+
+    intial commit
+
+[33mcommit ce92a0b701e1461b64def08595c09cfc402db955[m
+Author: Killol Sevak <112586778+Killol14@users.noreply.github.com>
+Date:   Tue Jun 27 10:57:28 2023 +0100
+
+    Initial commit
