@@ -6,6 +6,13 @@ import os
 import dj_database_url
 import env
 
+# THIS CODE IS FROM OUTSIDE
+from dotenv import load_dotenv
+
+# Load environment variables from env.py
+load_dotenv()
+
+
 
 
 
@@ -23,7 +30,7 @@ DEBUG = True
 
 
 # current host 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-hiehzr6nrg6.ws-eu102.gitpod.io', ' https://yoga-shop-8f3af1e13c14.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['8000-killol14-yogashop-hiehzr6nrg6.ws-eu102.gitpod.io', 'https://yoga-shop-8f3af1e13c14.herokuapp.com/', 'localhost']
   
 
 CSRF_TRUSTED_ORIGINS = [
