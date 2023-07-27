@@ -28,7 +28,7 @@ ALLOWED_HOSTS = ['8000-killol14-yogashop-squ2xsq8fmo.ws-eu102.gitpod.io', 'https
   
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-killol14-yogashop-6dka3dzaxu8.ws-eu102.gitpod.io',
+     'https://8000-killol14-yogashop-squ2xsq8fmo.ws-eu102.gitpod.io',
 ]
 
 
@@ -66,8 +66,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
-    
+   
 ]
 
 ROOT_URLCONF = 'yoga_shop.urls'
@@ -81,11 +80,11 @@ TEMPLATES = [
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
         ],
-        'APP_DIRS': True,
+        'APP_DIRS': True,  # Make sure this is set to True
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',  # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -98,6 +97,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
