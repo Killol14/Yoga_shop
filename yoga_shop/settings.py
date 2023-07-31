@@ -25,7 +25,7 @@ DEBUG = True
 
 
 # current host 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-dg6vkdntmep.ws-eu102.gitpod.io', 'https://yoga-shop-8f3af1e13c14.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['8000-killol14-yogashop-dg6vkdntmep.ws-eu102.gitpod.io', 'https://heaveny-yoga-shop-app-c1170ee6a120.herokuapp.com/', 'localhost']
 
   
 
