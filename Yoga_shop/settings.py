@@ -1,13 +1,11 @@
 """
-Django settings for yoga_shop project.
+Django settings for Yoga_shop project.
 
 """
 import os
 if os.path.isfile("env.py"):
     import env
 import dj_database_url
-
-
 
 
 
@@ -71,7 +69,7 @@ MIDDLEWARE = [
    
 ]
 
-ROOT_URLCONF = 'yoga_shop.urls'
+ROOT_URLCONF = 'Yoga_shop.urls'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
@@ -128,7 +126,6 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'Yoga_shop.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
