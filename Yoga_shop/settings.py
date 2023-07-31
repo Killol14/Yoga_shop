@@ -18,9 +18,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://8000-killol14-yogashop-ccwb0exqwb3.ws-eu102.gitpod.io', ' https://yoga-shop-8f3af1e13c14.herokuapp.com' 'localhost']
+ALLOWED_HOSTS = ['8000-killol14-yogashop-dg6vkdntmep.ws-eu102.gitpod.io'] 
 
 
 CSRF_TRUSTED_ORIGINS = [
