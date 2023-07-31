@@ -1,1 +1,1 @@
-web: gunicorn heavenly_yoga_shop.wsgi:application
+web: gunicorn Yoga_shop.wsgi:application
