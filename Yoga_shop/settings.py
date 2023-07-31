@@ -3,8 +3,7 @@ Django settings for Yoga_shop project.
 
 """
 import os
-if os.path.isfile("env.py"):
-    import env
+import env
 import dj_database_url
 
 
