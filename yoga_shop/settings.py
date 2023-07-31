@@ -3,8 +3,10 @@ Django settings for yoga_shop project.
 
 """
 import os
+if os.path.isfile("env.py"):
+    import env
 import dj_database_url
-import env
+
 
 
 
@@ -23,12 +25,12 @@ DEBUG = True
 
 
 # current host 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-squ2xsq8fmo.ws-eu102.gitpod.io', 'https://yoga-shop-8f3af1e13c14.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['8000-killol14-yogashop-dg6vkdntmep.ws-eu102.gitpod.io', 'https://yoga-shop-8f3af1e13c14.herokuapp.com/', 'localhost']
 
   
 
 CSRF_TRUSTED_ORIGINS = [
-     'https://8000-killol14-yogashop-squ2xsq8fmo.ws-eu102.gitpod.io',
+     'https://8000-killol14-yogashop-dg6vkdntmep.ws-eu102.gitpod.io',
 ]
 
 
