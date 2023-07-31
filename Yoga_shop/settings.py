@@ -18,16 +18,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['yoga-shop-8f3af1e13c14.herokuapp.com', 'localhost'] 
-
-
-CSRF_TRUSTED_ORIGINS = [
-    'https://8000-killol14-yogashop-hiehzr6nrg6.ws-eu102.gitpod.io',
-]
-
-
 
 # Application definition
 
