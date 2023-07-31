@@ -19,11 +19,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 
 # current host 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-dg6vkdntmep.ws-eu102.gitpod.io', 'https://heaveny-yoga-shop-app-c1170ee6a120.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['', 'heaveny-yoga-shop-app-c1170ee6a120.herokuapp.com', 'localhost']
 
   
 
