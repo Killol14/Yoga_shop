@@ -136,6 +136,7 @@ class StripeWH_Handler:
                                 product=product,
                                 quantity=quantity,
                                 product_size=size,
+                                color=colour,
                             )
                             order_line_item.save()
             except Exception as e:

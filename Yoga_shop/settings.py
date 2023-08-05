@@ -4,6 +4,7 @@ Django settings for yoga_shop project.
 """
 import os
 import dj_database_url
+import env
 
 
 
@@ -18,9 +19,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = True
 
-ALLOWED_HOSTS = ['yoga-shop-8f3af1e13c14.herokuapp.com', 'localhost'] 
+ALLOWED_HOSTS = ['8000-killol14-yogashop-bdek0h4727q.ws-eu102.gitpod.io','yoga-shop-8f3af1e13c14.herokuapp.com', 'localhost'] 
 
 # Application definition
 
@@ -55,7 +56,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
     
 ]
 
@@ -220,3 +220,4 @@ else:
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
