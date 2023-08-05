@@ -2,7 +2,6 @@ html {
     height: 100%;
     
 }
-
 body {
     background: url("/media/yoga2.jpg") no-repeat center center fixed;
     background-size: 100% 100%;
@@ -10,7 +9,6 @@ body {
     color: plum;
     font-family: 'lato';
 }
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -19,7 +17,9 @@ body {
     height: 1.5rem;
     width: 1.5rem;
 }
-
+.large{
+    font-size: 2.4rem;
+}
 .logo-font {
     text-transform: uppercase;
     color: purple;

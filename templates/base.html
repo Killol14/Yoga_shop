@@ -44,9 +44,36 @@
     <header class="container-fluid fixed-top">
         <div id="delivery-banner" class="row text-center">
             <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</h4>                
-            </div>            
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <h4 class="logo-font my-1">Free delivery on orders over £{{ free_delivery_threshold }}!</h4>
+                                </div>
+                                <div class="carousel-item">
+                                    <h4 class="logo-font my-1">All New Yoga Products Collections!</h4>
+                                </div>
+                                <div class="carousel-item">
+                                    <h4 class="logo-font my-1">Special Offers and Spring Sale On!</h4>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        
         <div id="topnav" class="row bg-black pt-lg-2 d-none d-lg-flex">
           <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
               <a href="{% url 'home' %}" class="nav-link main-logo-link">
