@@ -9,10 +9,7 @@ body {
     font-family: 'lato';
 }
 .hero-image {
-    background-image: url("/media/yoga2.jpg") no-repeat center center fixed;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;  /* Set the desired height */
+    background-image: url("/media/yoga\ homepage.png") no-repeat center center fixed;
     color: white;   /* Adjust text color for visibility */
 }
 /* from Bulma */
