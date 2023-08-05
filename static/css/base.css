@@ -3,15 +3,13 @@ html {
     
 }
 body {
+    background-image: url('/media/homepage.png')no-repeat center center fixed;
     background-size: 100% 100%;
     height: calc(100vh - 164px);
     color: plum;
     font-family: 'lato';
 }
-.hero-image {
-    background-image: url("/media/yoga\ homepage.png") no-repeat center center fixed;
-    color: white;   /* Adjust text color for visibility */
-}
+
 /* from Bulma */
 .icon {
     align-items: center;
