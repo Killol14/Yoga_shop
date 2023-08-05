@@ -2,7 +2,7 @@
 
 ## Milestone Project 4
 
-![Website overlook](/media/)
+![Website overlook](/media/yoga%20homepage.png)
 
 
 This is my very First E-Commerce Website.
@@ -19,7 +19,7 @@ Heavenly Yoga Shop app can be found at (https://yoga-shop-8f3af1e13c14.herokuapp
 ## Repository  
 
 (Project repository here)  
-https://github.com/Killol14/Yoga_shop
+https://github.com/Killol14/Yoga_shop.git
  
 
 ## Table of Contents  
