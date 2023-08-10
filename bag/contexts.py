@@ -37,7 +37,7 @@ def bag_contents(request):
                         })
             else:
                 quantity = item_data.get('quantity', 1)
-                color = item_data.get('color', None)
+                colour = item_data.get('colour', None)
                 if isinstance(quantity, (int, float)):
                     # Convert quantity to Decimal before multiplication
                     total += Decimal(quantity) * product.price
