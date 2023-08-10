@@ -30,7 +30,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=254)),
                 ('description', models.TextField()),
                 ('has_sizes', models.BooleanField(blank=True, default=False, null=True)),
-                ('colors', models.CharField(blank=True, max_length=200, null=True)),
+                ('has_colours', models.CharField(blank=True, max_length=200, null=True)),
                 ('price', models.DecimalField(decimal_places=2, max_digits=6)),
                 ('image_url', models.URLField(blank=True, max_length=1024, null=True)),
                 ('image', models.ImageField(blank=True, null=True, upload_to='')),

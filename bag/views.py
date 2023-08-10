@@ -15,12 +15,16 @@ def add_to_bag(request, item_id):
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
-    size = request.POST.get('product_size')
-    color = request.POST.get('product_color')
+    size = None
+    if 'product_size' in request.POST:
+        size = request.POST['product_size']
+    colour = None
+    if 'product_color' in request.POST:
+        colour = request.POST['product_color']
 
     bag = request.session.get('bag', {})
 
-    if size:
+    if size and colour:
         if item_id in bag.keys():
             if size in bag[item_id]['items_by_size'].keys():
                 bag[item_id]['items_by_size'][size]['quantity'] += quantity
@@ -28,7 +32,7 @@ def add_to_bag(request, item_id):
             else:
                 bag[item_id]['items_by_size'][size] = {
                     'quantity': quantity,
-                    'color': color 
+                    'colour': colour 
                 }
                 messages.success(request, f'You have added a new size {size.upper()} {product.name} to your shopping cart.')
         else:
@@ -36,7 +40,7 @@ def add_to_bag(request, item_id):
                 'items_by_size': {
                     size: {
                         'quantity': quantity,
-                        'color': color  
+                        'colour': colour  
                     }
                 }
             }
@@ -48,7 +52,7 @@ def add_to_bag(request, item_id):
         else:
             bag[item_id] = {
                 'quantity': quantity,
-                'color': color  # Add the selected color to the bag
+                'colour': colour  # Add the selected color to the bag
             }
             messages.success(request, f'You have added {product.name} to your shopping cart.')
 
@@ -60,39 +64,43 @@ def adjust_bag(request, item_id):
     """Adjust Item"""
 
     product = get_object_or_404(Product, pk=item_id)
+    quantity = int(request.POST.get('quantity'))
     size = None
     if 'product_size' in request.POST:
         size = request.POST['product_size']
-    color = request.POST.get('product_color')
+    colour = None
+    if 'product_color' in request.POST:
+        colour = request.POST['product_color']
+
     bag = request.session.get('bag', {})
 
-    if size and color:
+    if size and colour:
         if item_id in bag.keys():
             if size in bag[item_id]['items_by_size'].keys():
-                if color in bag[item_id]['items_by_size'][size]['colors'].keys():
-                    bag[item_id]['items_by_size'][size]['colors'][color] += quantity
-                    messages.success(request, f'You have updated the {color} {size.upper()} {product.name} quantity to {bag[item_id]["items_by_size"][size]["colors"][color]}')
+                if color in bag[item_id]['items_by_size'][size]['colours'].keys():
+                    bag[item_id]['items_by_size'][size]['colours'][colour] += quantity
+                    messages.success(request, f'You have updated the {colour} {size.upper()} {product.name} quantity to {bag[item_id]["items_by_size"][size]["colors"][colour]}')
                 else:
-                    bag[item_id]['items_by_size'][size]['colors'][color] = quantity
+                    bag[item_id]['items_by_size'][size]['colours'][colour] = quantity
                     messages.success(request, f'You have added a new {color} {size.upper()} {product.name} to your shopping cart.')
             else:
                 bag[item_id]['items_by_size'][size] = {
-                    'colors': {
-                        color: quantity
+                    'colours': {
+                        colour: quantity
                     }
                 }
-                messages.success(request, f'You have added a new {color} {size.upper()} {product.name} to your shopping cart.')
+                messages.success(request, f'You have added a new {colour} {size.upper()} {product.name} to your shopping cart.')
         else:
             bag[item_id] = {
                 'items_by_size': {
                     size: {
-                        'colors': {
-                            color: quantity
+                        'colours': {
+                            colour: quantity
                         }
                     }
                 }
             }
-            messages.success(request, f'You have added a new {color} {size.upper()} {product.name} to your shopping cart.')
+            messages.success(request, f'You have added a new {colour} {size.upper()} {product.name} to your shopping cart.')
     elif size:
         messages.warning(request, 'Please select a color for the product.')
         
@@ -124,9 +132,13 @@ def remove_from_bag(request, item_id):
         size = None
         if 'product_size' in request.POST:
             size = request.POST['product_size']
+        colour = None
+        if 'product_color' in request.POST:
+            colour = request.POST['product_color']
+
         bag = request.session.get('bag', {})
 
-        if size:
+        if size and colour:
             del bag[item_id]['items_by_size'][size]
             if not bag[item_id]['items_by_size']:
                 bag.pop(item_id)
@@ -139,5 +151,5 @@ def remove_from_bag(request, item_id):
         return HttpResponse(status=200)
 
     except Exception as e:
-        message.error(request, f'Error removing item: {e}')
+        messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
