@@ -3,8 +3,8 @@ html {
     
 }
 body {
-    background-image: url('/media/homepage.png')no-repeat center center fixed;
-    background-size: 100% 100%;
+    background: url('/media/homepage1.png')no-repeat center center fixed;
+    background-size:cover;
     height: calc(100vh - 164px);
     color: plum;
     font-family: 'lato';
@@ -30,9 +30,14 @@ h2.logo-font {
     font-weight: 900;
     margin-top: 50px;
 }
+h4.logo-font {
+    color: #ffc107;
+}
 h3 {
-    color: pink;
-    
+    color: pink; 
+}
+h3.large{
+    color: palevioletred;
 }
 .main-logo-link {
     width: fit-content;
@@ -201,7 +206,7 @@ input[name='q']::placeholder {
     max-width: 80%;
   }
 }
-/* Allauth form formatting */
+
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
@@ -255,7 +260,7 @@ input[name='q']::placeholder {
 	color: white; /* text-info */
 }
 
-/* fixed top navbar only on medium and up */
+/* fixed top navbar*/
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -269,14 +274,14 @@ input[name='q']::placeholder {
         padding-top: 164px;
     }
 }
-/* pad the top a bit when navbar is collapsed on mobile */
+/*when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
     }
 
     body {
-        height: calc(100vh - 116px);
+        height: calc(100vh - 100px);
     }
 
     .display-4.logo-font.text-black {
