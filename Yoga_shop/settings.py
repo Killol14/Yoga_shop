@@ -22,7 +22,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-q1yuut8njs7.ws-eu102.gitpod.io','yoga-shop-8f3af1e13c14.herokuapp.com', 'localhost'] 
+ALLOWED_HOSTS = ['8000-killol14-yogashop-pe750rl4d4m.ws-eu102.gitpod.io','yoga-shop-8f3af1e13c14.herokuapp.com', 'localhost'] 
 
 # Application definition
 

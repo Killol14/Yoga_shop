@@ -43,7 +43,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('product_size', models.CharField(blank=True, max_length=2, null=True)),
-                ('colors', models.CharField(blank=True, max_length=200, null=True)),
+                ('product_color', models.CharField(blank=True, max_length=200, null=True)),
                 ('quantity', models.IntegerField(default=0)),
                 ('lineitem_total', models.DecimalField(decimal_places=2, editable=False, max_digits=6)),
                 ('order', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='lineitems', to='checkout.order')),
