@@ -23,41 +23,37 @@ def add_to_bag(request, item_id):
 
     bag = request.session.get('bag', {})
 
-    if size:
-        if item_id in list(bag.keys()):
+    if size and colour:
+        if item_id in bag.keys():
             if size in bag[item_id]['items_by_size'].keys():
                 bag[item_id]['items_by_size'][size]['quantity'] += quantity
-                messages.success(request, f'Updated size {size.upper()} {product.name} quantity to {bag[item_id]["items_by_size"][size]}')
+                messages.success(request, f'You have updated the size {size.upper()} {product.name} quantity to {bag[item_id]["items_by_size"][size]["quantity"]}')
             else:
-                bag[item_id]['items_by_size'][size] = quantity
-                messages.success(request, f'Added size {size.upper()} {product.name} to your bag')
+                bag[item_id]['items_by_size'][size] = {
+                    'quantity': quantity,
+                    'colour': colour 
+                }
+                messages.success(request, f'You have added a new size {size.upper()} {product.name} to your shopping cart.')
         else:
-            bag[item_id] = {'items_by_size': {size: quantity}}
-            messages.success(request, f'Added size {size.upper()} {product.name} to your bag')
+            bag[item_id] = {
+                'items_by_size': {
+                    size: {
+                        'quantity': quantity,
+                        'colour': colour  
+                    }
+                }
+            }
+            messages.success(request, f'You have added a new size {size.upper()} {product.name} to your shopping cart.')
     else:
-        if item_id in list(bag.keys()):
-            bag[item_id] += quantity
-            messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
-        else:
-            bag[item_id] = quantity
-            messages.success(request, f'Added {product.name} to your bag')
-    if colour:
-        if item_id in bag:
-            if 'items_by_colour' in bag[item_id]:
-                if colour in bag[item_id]['items_by_colour']:
-                    bag[item_id]['items_by_colour'][colour]['quantity'] += quantity
-                else:
-                    bag[item_id]['items_by_colour'][colour] = {'quantity': quantity, 'size': None}
-            else:
-                bag[item_id]['items_by_colour'] = {colour: {'quantity': quantity, 'size': None}}
-        else:
-            bag[item_id] = {'items_by_colour': {colour: {'quantity': quantity, 'size': None}}}
-    else:
-        if item_id in bag:
+        if item_id in bag.keys():
             bag[item_id]['quantity'] += quantity
+            messages.success(request, f'You have updated {product.name} quantity to {bag[item_id]["quantity"]}')
         else:
-            bag[item_id] = {'quantity': quantity}
-
+            bag[item_id] = {
+                'quantity': quantity,
+                'colour': colour  # Add the selected color to the bag
+            }
+            messages.success(request, f'You have added {product.name} to your shopping cart.')
 
     request.session['bag'] = bag
     return redirect(redirect_url)
