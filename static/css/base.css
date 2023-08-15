@@ -274,6 +274,13 @@ input[name='q']::placeholder {
         padding-top: 164px;
     }
 }
+body {
+    background: url('/media/homepage2.png')no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 100px);
+    color: plum;
+    font-family: 'lato';
+}
 /*when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {

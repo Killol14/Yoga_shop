@@ -2,7 +2,7 @@
 
 ## Milestone Project 4
 
-![Website overlook](/media/yoga%20homepage.png)
+![Website overlook](media/Heavenly.png)
 
 
 This is my very First E-Commerce Website.
