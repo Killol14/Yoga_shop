@@ -3,7 +3,7 @@ html {
     
 }
 body {
-    background: url('/media/homepage2.jpeg')no-repeat center center fixed;
+    background: url('/media/hero1.jpeg')no-repeat center center fixed;
     background-size:cover;
     height: calc(100vh - 164px);
     color: plum;
@@ -37,7 +37,7 @@ h3 {
     color: pink; 
 }
 h3.large{
-    color: palevioletred;
+    color: #c91650;
 }
 .main-logo-link {
     width: fit-content;
