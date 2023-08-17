@@ -139,6 +139,34 @@ input[name='q']::placeholder {
     right: 15px;
     z-index: 9999999999;
 }
+/* Footer Styles */
+.footer {
+    background-color: transparent;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.social-media-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-media-links a {
+    color: purple;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-media-links a:hover {
+    color: #007bff;
+}
+
 /*--- This Message Colour Code is copied from Code Institute and Walkthrough Project --*/
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
