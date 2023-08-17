@@ -6,7 +6,7 @@
 
 
 This is my very First E-Commerce Website.
-HEAVENLY Yoga Shop is about the Youg and Meditation Products Online Store. Where people can buy Ypga and Meditations Products.
+HEAVENLY Yoga Shop is about the Youg and Meditation Products Online Store. Where people can buy Yoga and Meditations Products.
 
 
 ## Live Project 
@@ -44,7 +44,6 @@ https://github.com/Killol14/Yoga_shop.git
 
 2.Social Media Links (Footer)  
 
-3.Places in India Page
 
 * Features  
 
@@ -79,28 +78,32 @@ https://github.com/Killol14/Yoga_shop.git
 
 ## User Experience
 
-* 
+* This Is user friendly E-Commerce Website
+* User can Register then Login and Logout
+* User can Buy Yoga and Meditation Products
 * Make it easy for the user to navigate the site.
 
 
 ## User Stories 
-* As a user I want to easily look for different travel tips and advice for travelling to India
-* As a user I want to search for specific activities and tips when travelling 
-* As a user I want to able to look for tips sorted through categories 
+* As a user I want to buy some Yoga products
+* As a user I want to search for specific Products Regarding Yoga and Meditation.
+* As a user I want to able to Search Products.
+* As a user I want to able to Search Products by price and sorts also category.
 * As a user I want to be able to register my own account
 * As a user I want to be able to log in to my account
 * As a user I want to be able to log out of my account
-* As a user I want to upload my own stories/tips and advice 
-* As a user I want to be able to edit my travel contribution tips 
-* As a user I want to be able to delete my travel contribution tips 
-* As a site admin I want to be able to add new categories to the site
-* As a site admin I want to be able to edit categories
-* As a site admin I want to be able to delete categories
+* As a user I want to read Product Discription. 
+* As a user I want to be able  to add product in my cart.
+* As a user I want to be able to Remove Product.
+* As a site admin I want to be able to Update Product.
+* As a site admin I want to be able to secur Checkout
+* As a site admin I want to be able to add Card detatils.
+* As a site admin I want to be able to submit order.
 
 
 ## Wireframes  
 
-### Roaming In India Page
+### HEAVENLY Yoga Shop
 
 
 ![Wireframe1](media/README.img/wireframehome.PNG)
@@ -117,115 +120,119 @@ https://github.com/Killol14/Yoga_shop.git
 
 
 ## Design 
-With the user in mind, I wanted to create a website that travellers can easily search, add and amend different activities and tips about travelling to India. I used a simplisitic style with cards that show pictures of the place visited, and also drop down menu where the user can add into the specific category. 
-
+With the user in mind, I wanted to create a website that user can buy Yoga and Meditation Products, user can search add, update, remove product Quantity , Size, and colour if available. user Can securlly Place the order and get the Notification as a real Online Yoga Product Store.
 ## Colour Scheme  
 
-I chose this colour scheme for simplicity of Website.
+I chose this colour scheme for simplicity of Website and more like a Yoga Product. Calmness on Layout of the store.
 
 ![Roming-In-India Colour Scheme](media/README.img/colorkit%20(2).png)
 
 ## Images  
 
-As this website is based on India, I have included images of the country in order to show the diverse aesthetic of India.  
-
-The front page has a background hero image crated by Midjourny.
+All Images are free Downloaded and its only the perpose for E-commerce store.
 
 ## Icons  
 
 I used the social media on the footer Icons, which are located on the footer from, Font Awesome.  
 
 ## Structure  
-I have used simple structure and navigation link for user friendly.
+I have used simple structure and navigation link for user friendly. I have used Bottstrap4 for this.
+Register page, Checkout Page I have used Crispy Template From Django.
  
 
 ## Navigation Bar  
 
 Navbar
-Each page features a responsive Materialize navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has a hover effect so when the user hovers over the different pages the text changes color. In the left corner there is a logo with a link that takes you to the landing page.
+Each page features a responsive Materialize navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has a hover effect search bar, also above navbar there is baner. right hand side there are two click in for register , login and logout also cart for product total price.
 
  1. Users that are not logged in have the following pages in the navbar:
- * HOME
- * SHOW PLACES
- * ADD PLACES
- * SIGN UP
- * LOG IN
+
+ * SHOP ALL
+ * YOGA
+ * COMPRESSION
+ * MEDITATION
+ * SPECIAL OFFERS
+  AND ON My Account
+* REGISTER
+* LOGIN
 
  2. Users that are logged in have the following pages in the navbar:
- * HOME
- * SHOW PLACES
- * ADD PLACES
- * ACCOUNT
- * LOG OUT
+  
+ * SHOP ALL
+ * YOGA
+ * COMPRESSION
+ * MEDITATION
+ * SPECIAL OFFERS
+  AND ON My Account
+* LOGOUT
+* MY PROFILE 
+
 
  3. Admin that are logged in have the following pages in the navbar:
- * HOME
- * SHOW PLACES
- * ADD PLACES
- * ACCOUNT
- * MANAGE CATEGORIES
- * LOG OUT
+ 
+   
+ * SHOP ALL
+ * YOGA
+ * COMPRESSION
+ * MEDITATION
+ * SPECIAL OFFERS
+  AND ON My Account
+* LOGOUT
+* MY PROFILE 
+* PRODUCT MANAGEMENT
 
 ## Social Media Links (Footer) 
 
 This includes the icons which take the user to the relevant social media page  
 
-I have added social media links to Facebook, Instagram, Linkedin ,Twitter and Gov. Indian Website. 
+I have added social media links to Facebook, Instagram, Linkedin ,Twitter 
 
-## Places In India Page
-The Places page features a search bar at the top and below are links to the different categories that the Places and Tips and Advice are divided into so you can filter out the category you're intrested in. The Places and Information are presented in a grid with image cards.
 
 ### Search bar
-Allows the user to search for the name of a Places and Informations about India places. This will then filter out all the Places and Categories that includes the word that was searched.
-### Cards
- the front the user is provided with an image of the Places in india Or Information Image followed by the category and then the name. There is also an hover effect when you move the cursor over the cards to highligt and click on the card the Image is displayed it will take you for description page. If you're the user who has uploaded the Places you also have the possibility to edit or delete it.
-### Account
-On top of the Account page there is a button to Add Places and below is all the Places and Information uploaded by the user.
+Allows the user to search for the Yoga & Meditation Products also user can search with any letter they like if product available with that name it will appear otherwise message will disply with No Products available.
+### Product Card Layout 
+Product Description page from Bootstrap4 and Crispyform from Django.
+ 
 
-### Add Places
-As a registered user you can upload ythe most visited places in india and tarvel tips. To do this you fill in a form that includes:
-
-Category List
-Place Name
-Location
-Description
-Image
-All fields need to be filled out for the form to be submitted.
-
-* Edit Places You can edit your own Place or travel tips. The form is prefilled with the information that you have filled out so it's easy to adjust any changes.
-
-* Delete Places You can delete your own Place or Information. When you click on the delete button a confirmation modal pops up to assure you want to delete the Place and not doing it accidentally.
 
 ### Sign Up
-The Sign up page features a simple form where the user can pick a username and a password. A request is made to MongoDB to check if the username is already in use. If it's not being used a profile is created and the user is directed to their account page.
+The Sign up page features a simple form where the user can pick a username and a password. A request is made to Django to check if the username is already in use. If it's not being used a profile is created and the user is directed to their account page.
 
 ### Log In
-The log in page also features a simple form where the user type their username and password to log in to their account. If the user doesn't exist or make a typo when writing, a flash message appears that says "Incorrect Username and/or Password".
+The log in page also features a simple form where the user type their username and password to log in to their account. If the user doesn't exist or make a typo when writing, a toasts message appears that says "Incorrect Username and/or Password".
 
+### Manage Poducts
+When site admin is logged in there is a page to manage the Product with price and description. It's possible to either edit or delete the existing Product or to add new ones by admin only.
 ### Manage Categories
 When site admin is logged in there is a page to manage the categories List. It's possible to either edit or delete the existing categories or to add new ones by admin only.
 ## Current Features  
 
 I have created a website that is fully responsive on all screen sizes eg Tablet Mobile Laptop, by using the Media query and meta view port. This allows the texts and images to translate properly on these devices.  
-## Database
+## Database (Django and Elephant)
 
-![Roming-In-India Mongodb](static/images/README.img/mongo.PNG)
+![HEAVENLY Yoga Shop](media/README.img/DJANGO.PNG)
+
+![HEAVENLY Yoga Shop](media/README.img/ElephantSQL.PNG)
 
 ## Technologies Used  
 ## Languages used 
 
- * HTML, CSS, Javascript and Python3
+ * HTML, CSS, Javascript and Django
 
 ## Frameworks and Library Programs 
 
- * Flask
- * Flask-PyMongo
+ * ElephantSQL
+ * Amazon AWS
+ * Pillow
+ * AllAuth
+ * Strip
  * pip
- * dnspython
+ * toast
+ * Django
  * jQuery
- * Jinja
+ * boto3
  * Werkzeug
- * Materialize
+ * Bootstarp4
  * Google Fonts 
  * FontAwesome
 ####  Google Fonts 
@@ -238,8 +245,9 @@ I used the social media icons from font awesome
 
 ##  Other Tools  
  * ElephantSQL - used as database for this project
+ * Toast - used as a Eroor and Success Messages.
  * Django - used for Website FrameWork
- * Crispy Templates - used for login-out, checkout, Product Form
+ * Crispyform Templates - used for login-out, checkout, Product Form
  * Bootstrap4 - used for navbar and product layout
  * ASW - used for data saving
  * Stripe - used for card payment
