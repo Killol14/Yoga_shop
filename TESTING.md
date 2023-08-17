@@ -32,6 +32,34 @@ Web Link | No Error
 
 Main Page Open By clicking Shop Now Button | No Error
 
+![Main Page](media/README.img/signIn1.png)
+
+Login with user and password  | No Error
+
+![Main Page](media/README.img/signIn2.png)
+![Main Page](media/README.img/Heropage.png)
+![Main Page](media/README.img/BYclick.png)
+![Main Page](media/README.img/searchbar.png)
+![Main Page](media/README.img/BYsort.png)
+![Main Page](media/README.img/BYcategory.png)
+![Main Page](media/README.img/addproduct.png)
+![Main Page](media/README.img/addproduct2.png)
+![Main Page](media/README.img/checkout.png)
+![Main Page](media/README.img/checkout2.png)
+
+![Main Page](media/README.img/yogaproducts.png)
+![Main Page](media/README.img/conditioning.png)
+![Main Page](media/README.img/compression.png)
+![Main Page](media/README.img/meditation.png)
+![Main Page](media/README.img/specialoffers.png)
+![Main Page](media/README.img/meditation.png)
+![Main Page](media/README.img/clearance.png)
+![Main Page](media/README.img/deal.png)
+![Main Page](media/README.img/newarrivals.png)
+![Main Page](media/README.img/productmanagement.png)
+
+
+
 !
 
 

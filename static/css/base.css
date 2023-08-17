@@ -6,7 +6,7 @@ body {
     background: url('/media/hero1.jpeg')no-repeat center center fixed;
     background-size:cover;
     height: calc(100vh - 164px);
-    color: plum;
+    color: #dda0dd;
     font-family: 'lato';
 }
 
@@ -23,7 +23,7 @@ body {
 }
 .logo-font {
     text-transform: uppercase;
-    color: purple;
+    color: #800080;
     
 }
 h2.logo-font {
@@ -34,7 +34,7 @@ h4.logo-font {
     color: #ffc107;
 }
 h3 {
-    color: pink; 
+    color: #ffc0cb; 
 }
 h3.large{
     color: #c91650;
@@ -44,7 +44,7 @@ h3.large{
 }
 
 .shop-now-button {
-    background: palevioletred;
+    background: #d87093;
     color: white;
     min-width: 260px;
 }

@@ -2,7 +2,7 @@
 
 ## Milestone Project 4
 
-![Website overlook](media/Heavenly.png)
+![Website overlook](media/README.img/Heropage.png)
 
 
 This is my very First E-Commerce Website.
@@ -102,19 +102,18 @@ https://github.com/Killol14/Yoga_shop.git
 
 ### Roaming In India Page
 
-![Wireframe1](static/images/README.img/Rwireframe1.PNG)
-![Wireframe2](static/images/README.img/Rwireframe2.PNG)
-![Wireframe3](static/images/README.img/Rwireframe3.PNG)
-![Wireframe1](static/images/README.img/Rwireframe4.PNG)
-![Wireframe2](static/images/README.img/Rwireframe5.PNG)
+
+![Wireframe1](media/README.img/wireframehome.PNG)
+![Wireframe1](media/README.img/wireproduct.PNG)
+![Wireframe1](media/README.img/wireframecheckout.PNG)
 
 ### Ipad View
 
-![Wireframe](static/images/README.img/Rwireframe6.PNG)
+![Wireframe1](media/README.img/WireframeTablet.pdf)
 
 ### Phone View
 
-![Wireframe](static/images/README.img/Rwireframe7.PNG)
+![Wireframe1](media/README.img/wiremob.PNG)
 
 
 ## Design 
@@ -124,7 +123,7 @@ With the user in mind, I wanted to create a website that travellers can easily s
 
 I chose this colour scheme for simplicity of Website.
 
-![Roming-In-India Colour Scheme](static/images/README.img/colorkit%20(1).png)
+![Roming-In-India Colour Scheme](media/README.img/colorkit%20(2).png)
 
 ## Images  
 
@@ -238,7 +237,12 @@ Montserrat and Lato, were imported from google font and used throughout the webs
 I used the social media icons from font awesome  
 
 ##  Other Tools  
- * MongoDB - used as database for this project
+ * ElephantSQL - used as database for this project
+ * Django - used for Website FrameWork
+ * Crispy Templates - used for login-out, checkout, Product Form
+ * Bootstrap4 - used for navbar and product layout
+ * ASW - used for data saving
+ * Stripe - used for card payment
  * Heroku - used to deploy the live site
  * GitPod - used for their IDE while building the website
  * GitHub - used to store repository
@@ -250,9 +254,12 @@ I used the social media icons from font awesome
  
 ## Testing 
 
-![Roming-In-India Manual Testing](TESTING.md)
+![HEAVENLY Yoga Shop Manual Testing](TESTING.md)
 
------------------------------------------------------------------------------------------------------
+
+![HEAVENLY Yoga HTML Validator](media/README.img/HTML1.PNG)
+
+![HEAVENLY Yoga CSS Validato](media/README.img/css1.PNG)----------------------------------------------------------------------------------------------------
 ## Deployment  
 
 ### How this Project was Deployed
