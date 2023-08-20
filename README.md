@@ -308,7 +308,7 @@ key: SECRET_KEY, value: (unique secret key for configuration)
 
  10. Choose the branch you want to deploy from and then click "Enable Automatic Deploys"
 
- 11. ![HEAVENLY Yoga HTML Validator](media/README.img/HTML1.PNG)
+ 11. ![HEAVENLY Yoga HTML Validator](media/README.img/Heropage.png)
 ### How To Run The Code Locally
 
 To run this project locally you need to create the env.py file using your own variables since these are not provided for security reasons. To have the database connection you'll also need to create your own database collection and connect it to your project.
