@@ -292,18 +292,26 @@ I used the social media icons from font awesome
 
  8. Add these variables:
 
-key: IP, value: 0.0.0.0
-key: MONGODB_NAME, value: (the name of your database)
-key: MONGO_URI, value: (unique uri from mongo.db)
-key: PORT, value: 5000
+key: AWS_ACCESS_KEY_ID
+key: AWS_SECRET_ACCESS_KEY
+key: DATABASE_URL
+key: EMAIL_HOST_PASS
+key: EMAIL_HOST_USER
+key: ENV_VARIABLE_NAME
+key: HEROKU_POSTGRESQL_CYAN_URL
+key: STRIPE_PUBLIC_KEY
+key: STRIPE_SECRET_KEY
+key: STRIPE_WH_SECRET
 key: SECRET_KEY, value: (unique secret key for configuration)
 
  9. Click on the "Deploy" tab and scroll down to the section "Automatic Deployment"
 
  10. Choose the branch you want to deploy from and then click "Enable Automatic Deploys"
+
+ 11. ![HEAVENLY Yoga HTML Validator](media/README.img/HTML1.PNG)
 ### How To Run The Code Locally
 
-To run this project locally you need to create the env.py file using your own variables since these are not provided for security reasons. To have the database connection you'll also need to create your own database collection on MongoDB and connect it to your project.
+To run this project locally you need to create the env.py file using your own variables since these are not provided for security reasons. To have the database connection you'll also need to create your own database collection and connect it to your project.
 
  1. Log in to Github.
  2. Navigate to the repository
