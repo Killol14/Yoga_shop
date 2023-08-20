@@ -30,8 +30,9 @@
 ### Step by Step Testing Images
 
 ![Main Page After Opening Web Link (https://yoga-shop-8f3af1e13c14.herokuapp.com/)](media/README.img/Weblink.png)
-|----------|----------|
+
 | Web Link | No Error |
+|----------|----------|
 
 ![Main Page](media/README.img/BYprice.png)
 
