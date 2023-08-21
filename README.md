@@ -57,6 +57,8 @@ https://github.com/Killol14/Yoga_shop.git
 
 * Testing  
 
+* LightHouse 
+
 * Other Tolls
 
 * Deployment  
@@ -213,6 +215,34 @@ I have created a website that is fully responsive on all screen sizes eg Tablet 
 ![HEAVENLY Yoga Shop](media/README.img/DJANGO.PNG)
 
 ![HEAVENLY Yoga Shop](media/README.img/ElephantSQL.PNG)
+
+## LightHouse 
+
+* LightHouse Home Page
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/lighthousehome.PNG)
+
+* LightHouse Login Page
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/loginpage.PNG)
+
+* LightHouse SignUp Page
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/signinpage1.PNG)
+
+* LightHouse Register Page
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/registerpage.PNG)
+
+* LightHouse Product Page
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/lighthouseproduct.PNG)
+
+* LightHouse Product Management Page
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/productmaangement.PNG)
+
+* LightHouse Add To cart Page
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/addtopage.PNG)
+
+* LightHose CheckOut Pages
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/checkoutpage.PNG)
+![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/checkoutpage2.PNG)
+
 
 ## Technologies Used  
 ## Languages used 
