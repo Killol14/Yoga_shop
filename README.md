@@ -210,11 +210,16 @@ When site admin is logged in there is a page to manage the categories List. It's
 ## Current Features  
 
 I have created a website that is fully responsive on all screen sizes eg Tablet Mobile Laptop, by using the Media query and meta view port. This allows the texts and images to translate properly on these devices.  
+
+## Django Superuser
+
+![HEAVENLY Yoga Shop](media/README.img/Superuser.PNG)
 ## Database (Django and Elephant)
 
 ![HEAVENLY Yoga Shop](media/README.img/DJANGO.PNG)
 
 ![HEAVENLY Yoga Shop](media/README.img/ElephantSQL.PNG)
+
 
 ## LightHouse 
 
