@@ -308,6 +308,11 @@ Gitpod was used to create my files and where I wrote the code.
 
 ![HEAVENLY Yoga Shop Manual Testing](TESTING.md)
 
+## Stripe Events and logs
+
+![HEAVENLY Yoga HTML Validator](media/README.img/Stripe.PNG)
+ 
+ ## Html and Css Validator
 
 ![HEAVENLY Yoga HTML Validator](media/README.img/HTML1.PNG)
 
