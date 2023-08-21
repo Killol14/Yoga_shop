@@ -86,7 +86,7 @@ def add_to_bag(request, item_id):
                         colour: quantity
                     }
             else:
-                bag[item_id] += quantity
+                bag[item_id]['quantity'] += quantity
             messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
         else:
             bag[item_id] = {

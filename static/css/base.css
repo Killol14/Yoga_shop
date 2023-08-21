@@ -177,7 +177,7 @@ input[name='q']::placeholder {
     border-right: 4px solid transparent; 
     border-bottom: 10px solid black;
     position: absolute;
-    top: 60px;
+    top: 30px;
     right: 36px;
 }
 
