@@ -143,6 +143,9 @@
 | Lastly As a Admin I Opened Product Management Page and It works And open as it should.| No Error |
 |----------|----------|
 
+### Stipe API Key
+Some Time Stripe Is failing for Payment.
+
 -------------------------------------------------------------------------------------------------------------------------------------- 
 
 * These are All Menual Testing steps work as normal Although I have Found one Small error as remove Button was not working with Some of the products Which is solved now.
