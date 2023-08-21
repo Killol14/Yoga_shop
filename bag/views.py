@@ -12,6 +12,8 @@ def view_bag(request):
     """ A view that renders the bag contents page """
     return render(request, 'bag/bag.html')
 
+# Add to Cart 
+
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
 
@@ -98,12 +100,14 @@ def add_to_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(redirect_url)
 
+# Adjust Cart
+
 def adjust_bag(request, item_id):
     """Adjust the quantity of the specified product to the specified amount"""
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     size = request.POST.get('product_size')
-    colour = request.POST.get('product_colour')  # Changed "color" to "colour"
+    colour = request.POST.get('product_colour')
     bag = request.session.get('bag', {})
 
     if size:
@@ -135,12 +139,14 @@ def adjust_bag(request, item_id):
     request.session['bag'] = bag
     return redirect(reverse('view_bag'))
 
+# Remove from cart
+
 def remove_from_bag(request, item_id):
     """Remove the item from the shopping bag"""
     try:
         product = get_object_or_404(Product, pk=item_id)
         size = request.POST.get('product_size')
-        colour = request.POST.get('product_colour')  # Changed "color" to "colour"
+        colour = request.POST.get('product_colour') 
         bag = request.session.get('bag', {})
 
         if size:

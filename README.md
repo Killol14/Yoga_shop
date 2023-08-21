@@ -243,7 +243,7 @@ I have created a website that is fully responsive on all screen sizes eg Tablet 
 ![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/checkoutpage.PNG)
 ![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/checkoutpage2.PNG)
 
-
+---------------------------------------------------------------------------
 ## Technologies Used  
 ## Languages used 
 
