@@ -1,3 +1,4 @@
+
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
@@ -9,6 +10,7 @@ from profiles.models import UserProfile
 
 import json
 import time
+import stripe
 
 class StripeWH_Handler:
     """Handle Stripe webhooks"""
@@ -136,7 +138,7 @@ class StripeWH_Handler:
                                 product=product,
                                 quantity=quantity,
                                 product_size=size,
-                                color=colour,
+                                product_color=colour,
                             )
                             order_line_item.save()
             except Exception as e:

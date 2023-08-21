@@ -1,5 +1,7 @@
 <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
     {% csrf_token %}
+    <input type="hidden" name="product_size" value="{{ item.size }}">
+    <input type="hidden" name="product_color" value="{{ item.colour }}">
     <div class="col-12">
         <p><strong>Quantity:</strong></p>
         <input type="number" class="form-control rounded-0 w-50" name="quantity" id="id_qty_{{ item.item_id }}" value="{{ item.quantity }}" min="1" max="99">
@@ -7,7 +9,7 @@
 </form>
 
 <a class="update-link text-info"><small>Update</small></a>
-<a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+<a class="remove-item text-danger float-right" id="remove_{{ item.id }}" data-product_size="{{ item.size }}" data-product_color="{{ item.colour }}"><small>Remove</small></a>
 
 <script>
 
