@@ -6,7 +6,7 @@
 
 
 This is my very First E-Commerce Website.
-HEAVENLY Yoga Shop is about the Youg and Meditation Products Online Store. Where people can buy Yoga and Meditations Products.
+HEAVENLY Yoga Shop is about the Yoga and Meditation Products Online Store. Where people can buy Yoga and Meditation Products. The focus is mainly on yoga and meditation, hhowever I have added products for other exercises as well as Yoga. 
 
 
 ## Live Project 
@@ -81,7 +81,7 @@ https://github.com/Killol14/Yoga_shop.git
 ## User Experience
 
 * This Is user friendly E-Commerce Website
-* User can Register then Login and Logout
+* User can Register and Login and Logout
 * User can Buy Yoga and Meditation Products
 * Make it easy for the user to navigate the site.
 
@@ -122,12 +122,12 @@ https://github.com/Killol14/Yoga_shop.git
 
 
 ## Design 
-With the user in mind, I wanted to create a website that user can buy Yoga and Meditation Products, user can search add, update, remove product Quantity , Size, and colour if available. user Can securlly Place the order and get the Notification as a real Online Yoga Product Store.
+With the user in mind, I wanted to create a website that user can buy Yoga and Meditation Products, user can search add, update, remove product Quantity , Size, and colour if available. user Can securely Place the order and get the Notifications as a real Online Yoga Product Store.
 ## Colour Scheme  
 
-I chose this colour scheme for simplicity of Website and more like a Yoga Product. Calmness on Layout of the store.
+I chose this colour scheme for simplicity of Website and more like a Yoga Product. Calmness on Layout of the store. The colour of the text also represents a feeling of Calmness and relaxation, which was the aim for the website. 
 
-![Roming-In-India Colour Scheme](media/README.img/colorkit%20(2).png)
+![HEAVENLY Yoga Shop Colour Scheme](media/README.img/colorkit%20(2).png)
 
 ## Images  
 
@@ -138,14 +138,14 @@ All Images are free Downloaded and its only the perpose for E-commerce store.
 I used the social media on the footer Icons, which are located on the footer from, Font Awesome.  
 
 ## Structure  
-I have used simple structure and navigation link for user friendly. I have used Bottstrap4 for this.
-Register page, Checkout Page I have used Crispy Template From Django.
+I have used simple structure and navigation link for user friendly. I have used Bootstrap4 for this.
+Register page and Checkout Page I have used Crispy Template From Django.
  
 
 ## Navigation Bar  
 
 Navbar
-Each page features a responsive Materialize navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has a hover effect search bar, also above navbar there is baner. right hand side there are two click in for register , login and logout also cart for product total price.
+Each page features a responsive Materialize navbar that’s collapsed to a burger icon when viewing on smaller screens. The navbar has a hover effect search bar, also above navbar there is banner. Right hand side there are two clicks in for register , login and logout also cart for product total price.
 
  1. Users that are not logged in have the following pages in the navbar:
 
@@ -201,7 +201,7 @@ Product Description page from Bootstrap4 and Crispyform from Django.
 The Sign up page features a simple form where the user can pick a username and a password. A request is made to Django to check if the username is already in use. If it's not being used a profile is created and the user is directed to their account page.
 
 ### Log In
-The log in page also features a simple form where the user type their username and password to log in to their account. If the user doesn't exist or make a typo when writing, a toasts message appears that says "Incorrect Username and/or Password".
+The log in page also features a simple form where the user type their username and password to log in to their account. If the user doesn't exist or make a typo when writing, a toast message appears that says "Incorrect Username and/or Password".
 
 ### Manage Poducts
 When site admin is logged in there is a page to manage the Product with price and description. It's possible to either edit or delete the existing Product or to add new ones by admin only.
@@ -249,10 +249,10 @@ I have created a website that is fully responsive on all screen sizes eg Tablet 
 ![HEAVENLY Yoga Shop Lighthouse Testing](media/README.img/checkoutpage2.PNG)
 
 ---------------------------------------------------------------------------
-## Technologies Used  
+### Technologies Used  
 ## Languages used 
 
- * HTML, CSS, Javascript and Django
+ * HTML, CSS, Javascript and Django(Python)
 
 ## Frameworks and Library Programs 
 
@@ -267,9 +267,10 @@ I have created a website that is fully responsive on all screen sizes eg Tablet 
  * jQuery
  * boto3
  * Werkzeug
- * Bootstarp4
+ * Bootstrap4
  * Google Fonts 
  * FontAwesome
+
 ####  Google Fonts 
 
 Montserrat and Lato, were imported from google font and used throughout the website.
@@ -278,6 +279,14 @@ Montserrat and Lato, were imported from google font and used throughout the webs
 
 I used the social media icons from font awesome  
 
+### Git
+Git was used as version control in terminal
+
+### Github
+Github was used to create and store the project repository
+
+### Gitpod
+Gitpod was used to create my files and where I wrote the code.
 ##  Other Tools  
  * ElephantSQL - used as database for this project
  * Toast - used as a Eroor and Success Messages.
@@ -302,7 +311,7 @@ I used the social media icons from font awesome
 
 ![HEAVENLY Yoga HTML Validator](media/README.img/HTML1.PNG)
 
-![HEAVENLY Yoga CSS Validato](media/README.img/css1.PNG)----------------------------------------------------------------------------------------------------
+![HEAVENLY Yoga CSS Validator](media/README.img/css1.PNG)----------------------------------------------------------------------------------------------------
 ## Deployment  
 
 ### How this Project was Deployed
@@ -388,14 +397,17 @@ To run this project locally you need to create the env.py file using your own va
 
 ## Summary 
 
-Through the above languages and technologies, I have aimed to create a user friendly repository where people can add their own tips and advice on travelling to India. 
+Through the above languages and technologies, I have aimed to create a user friendly shopping experience, where people can browse and buy fitness products. 
 
 ### Acknowledgements
 
-Credit goes to my mentor Ronan, who helped overlook my project
-Online youtube video for MongoDB Advise 
+Credit goes to my mentor Ronan, who helped overlook my project 
 Code Institute walkthrough project. 
+Thank you to the code institute city of Bristol college for help and support.
 
+ReadMe file structure, with credit to the former student, milestone 1 Row Gallery Website
+
+This website is purely fictious and not for public consumption.
  
  
 
