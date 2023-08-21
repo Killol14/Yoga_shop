@@ -5,7 +5,6 @@ from django.dispatch import receiver
 
 from django_countries.fields import CountryField
 
-
 class UserProfile(models.Model):
     """
     A user profile model for maintaining default
@@ -20,7 +19,6 @@ class UserProfile(models.Model):
     default_country = CountryField(blank_label='Country *', null=True, blank=True)
     default_phone_number = models.CharField(max_length=20, null=True, blank=True)
    
-
     def __str__(self):
         return self.user.username
 
