@@ -166,7 +166,12 @@ input[name='q']::placeholder {
 .social-media-links a:hover {
     color: #007bff;
 }
-
+.colour-card {
+    background-color: whitesmoke;
+}
+.product-colour {
+    background-color: whitesmoke;
+}
 /*--- This Message Colour Code is copied from Code Institute and Walkthrough Project --*/
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
