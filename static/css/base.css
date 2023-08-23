@@ -3,10 +3,10 @@ html {
     
 }
 body {
-    background: url('/media/hero1.jpeg')no-repeat center center fixed;
+    background: url('/media/Home2.jpeg')no-repeat center center fixed;
     background-size:cover;
     height: calc(100vh - 164px);
-    color: #dda0dd;
+    color: purple;
     font-family: 'lato';
 }
 
