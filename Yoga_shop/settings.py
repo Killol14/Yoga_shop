@@ -16,7 +16,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['yoga-shop-8f3af1e13c14.herokuapp.com', 'localhost'] 
+ALLOWED_HOSTS = ['yoga-shop-8f3af1e13c14.herokuapp.com','localhost'] 
 
 # Application definition
 
@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
 
-    #Other App
-     'crispy_forms',
-     'storages'
+# Other App
+    'crispy_forms',
+    'storages'
 ]
 
 MIDDLEWARE = [
@@ -49,8 +49,7 @@ MIDDLEWARE = [
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',    
 ]
 
 ROOT_URLCONF = 'Yoga_shop.urls'
@@ -91,7 +90,6 @@ AUTHENTICATION_BACKENDS = (
 
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
-    
 )
 
 SITE_ID = 1
@@ -122,9 +120,8 @@ else:
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-     }
- }
-     
+    }
+}
 # Password validation
 
 AUTH_PASSWORD_VALIDATORS = [
