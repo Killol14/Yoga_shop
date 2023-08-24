@@ -143,6 +143,9 @@
 | Lastly As a Admin I Opened Product Management Page and It works And open as it should.| No Error |
 |----------|----------|
 
+### Python Flake(Problems)
+* Tryed To Resolve Most Problems
+![Flake Problems](media/README.img/Python%20Flake%20(Problems).PNG)
 ### Stipe API Key
 Some Time Stripe Is failing for Payment.
 
