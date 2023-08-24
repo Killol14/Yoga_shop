@@ -4,7 +4,7 @@ Django settings for yoga_shop project.
 """
 import os
 import dj_database_url
-import env
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -14,9 +14,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-killol14-yogashop-b56kfmqt3vm.ws-eu104.gitpod.io','yoga-shop-8f3af1e13c14.herokuapp.com', 'localhost'] 
+ALLOWED_HOSTS = ['yoga-shop-8f3af1e13c14.herokuapp.com', 'localhost'] 
 
 # Application definition
 
